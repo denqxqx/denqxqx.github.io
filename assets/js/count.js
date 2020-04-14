@@ -43,3 +43,4 @@ function initializeClock(id, endtime) {
 
 var deadline="April 17 2020 14:01:20 GMT+0700"; // for endless timer
 initializeClock("countdown", deadline);
+
