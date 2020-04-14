@@ -2,16 +2,18 @@ body {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
+  font-size: 48px;
   color: #ffffff;
 }
+
 p {
-  font-size: 18px;
+  font-size: 56px;
 }
 
 .countdown-title {
   color: #ffffff;
   font-weight: 100;
-  font-size: 40px;
+  font-size: 72px;
   margin: 40px 0px 20px;
 }
 
@@ -21,7 +23,7 @@ p {
   display: inline-block;
   font-weight: 100;
   text-align: center;
-  font-size: 30px;
+  font-size: 72px;
 }
 
 .countdown-number {
@@ -62,11 +64,11 @@ a.button {
   margin:0 auto;
   top: 300px;
   font-weight: 500;
-  font-size: 36px;
+  font-size: 56px;
   color: white;
   text-decoration: none;
-  padding: 0.3em 1.5em;
-  border-radius: 15px;
+  padding: 0.3em 2em;
+  border-radius: 40px;
   background: #921414;
   box-shadow: 0 0 13px rgba(0,0,0,0.34);
   transition: 0.5s;
@@ -78,26 +80,26 @@ a.button:active {
 }
 .list{
   font-weight: 400;
-  font-size: 18px;
+  font-size: 48px;
 }
 
 input[type=text] {
   text-align: center;
   margin: 10px 0px;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 56px;
   border: 2px solid white;
   border-radius: 15px;
 }
 button {
   margin:10px auto;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 44px;
   color: white;
   text-decoration: none;
   padding: 0.3em 1.5em;
   border: 0px solid #921414;
-  border-radius: 15px;
+  border-radius: 40px;
   background: #921414;
   box-shadow: 0 0 13px rgba(0,0,0,0.34);
   transition: 0.5s;
