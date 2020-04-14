@@ -5,7 +5,9 @@ body {
   font-size: 48px;
   color: #ffffff;
 }
-
+audio {
+  width: 100%;
+}
 p {
   font-size: 56px;
 }
