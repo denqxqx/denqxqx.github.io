@@ -84,6 +84,9 @@ a.button:active {
   font-weight: 400;
   font-size: 36px;
 }
+form {
+  margin: 50px;
+}
 
 input[type=text] {
   text-align: center;
