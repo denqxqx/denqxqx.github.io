@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Project Lisa</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+  </head>
+  <style>
+  body {
+   background-image: url('assets/img/t.png');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100% 100%;
+  }
+  </style>
+  <body>
+    <h1 class="">Добро пожаловать в игру</h1>
+     <div class="list">
+       <li>Твоя задача решить ряд загадок и угадать место</li>
+       <li>На месте тебя будет ждать задание, выполнишь его - получишь ключ</li>
+       <li>Все ключи прописывай маленькими буквами</li>
+       <li>Не пытайся угадать ключи, в чем тогда смысл</li>
+       <li>Если что-то пошло не так, ты знаешь к кому обращаться</li>
+       <li>Не закрывай вкладку с игрой, я серьезно</li>
+      </div>
+      <form name="ff">
+      <input id="form" type="text" name="form" placeholder="Введи - 'я все поняла'">
+      </form>
+    <div>
+      <button id="check">Проверка</button>
+    </div>
+    <a id="next" class="button" href="Lvl1.html">Далее</a>
+
+    <script>
+      document.getElementById('check').onclick = function(){
+        var t=document.ff.form.value;
+        if (t =="я все поняла"){
+        document.getElementById("next").style.display = "inline-block ";
+        document.getElementById("form").style.border = "2px solid green";
+      }
+      else{
+        document.getElementById("form").style.border = "2px solid #921414";
+      }
+    }
+    </script>
+</body>
+
+</html>

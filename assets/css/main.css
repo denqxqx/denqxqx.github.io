@@ -1,0 +1,112 @@
+body {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+}
+p {
+  font-size: 18px;
+}
+
+.countdown-title {
+  color: #ffffff;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+
+.countdown {
+  font-family: sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+}
+
+.countdown-number {
+  padding: 10px;
+  border-radius: 3px;
+  background: #921414;
+  display: inline-block;
+}
+
+.countdown-time {
+  padding: 15px;
+  border-radius: 3px;
+  background: #6f1111;
+  display: inline-block;
+}
+
+.countdown-text {
+  display: block;
+  padding-top: 5px;
+  font-size: 16px;
+}
+
+.deadline-message{
+  display: none;
+  font-size: 48px;
+}
+
+.visible{
+  display: block;
+}
+
+.hidden{
+  display: none;
+}
+
+a.button {
+  position: relative;
+  margin:0 auto;
+  top: 300px;
+  font-weight: 500;
+  font-size: 36px;
+  color: white;
+  text-decoration: none;
+  padding: 0.3em 1.5em;
+  border-radius: 15px;
+  background: #921414;
+  box-shadow: 0 0 13px rgba(0,0,0,0.34);
+  transition: 0.5s;
+} 
+a.button:hover { background: #6f1111; }
+a.button:active {
+  background: #921414;
+  box-shadow: 0 0 13px rgba(0,0,0,0.34) inset;
+}
+.list{
+  font-weight: 400;
+  font-size: 18px;
+}
+
+input[type=text] {
+  text-align: center;
+  margin: 10px 0px;
+  font-weight: 500;
+  font-size: 24px;
+  border: 2px solid white;
+  border-radius: 15px;
+}
+button {
+  margin:10px auto;
+  font-weight: 500;
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  padding: 0.3em 1.5em;
+  border: 0px solid #921414;
+  border-radius: 15px;
+  background: #921414;
+  box-shadow: 0 0 13px rgba(0,0,0,0.34);
+  transition: 0.5s;
+} 
+button:hover { background: #6f1111; }
+button:active {
+  background: #921414;
+  box-shadow: 0 0 13px rgba(0,0,0,0.34) inset;
+}
+#next {
+  display: none;
+}
