@@ -41,5 +41,5 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-var deadline="April 17 2020 14:01:20 GMT+0700"; // for endless timer
+var deadline="April 17 2020 14:00:00 GMT+0700"; // for endless timer
 initializeClock("countdown", deadline);
